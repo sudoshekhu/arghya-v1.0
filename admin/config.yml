@@ -6,22 +6,16 @@ backend:
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
+site_url: https://arghya.co.in
+display_url: https://arghya.co.in
+
 collections:
-  - name: "events"
-    label: "Events"
-    folder: "content/events"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Event Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "body", widget: "markdown" }
-
-  - name: "announcements"
-    label: "Announcements"
-    folder: "content/announcements"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Message", name: "body", widget: "markdown" }
-
+  - name: "home"
+    label: "Home Page"
+    files:
+      - label: "Hero Section"
+        name: "hero"
+        file: "content/home/hero.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
