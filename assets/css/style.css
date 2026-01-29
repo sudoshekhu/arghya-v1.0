@@ -373,6 +373,7 @@ footer {
 @media (max-width: 600px) {
   .masonry { column-count: 1; }
 }
+
 /* =========================
    CONTACT PAGE STYLES
 ========================= */
