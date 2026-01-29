@@ -1,0 +1,194 @@
+/* --------------------
+   Global Styles
+-------------------- */
+:root {
+  --primary: #e65100;      /* Deep saffron */
+  --secondary: #fff3e0;    /* Soft festive background */
+  --dark: #2c2c2c;
+  --light: #ffffff;
+  --accent: #ffb300;       /* Diya glow */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: var(--secondary);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+/* --------------------
+   Header
+-------------------- */
+header {
+  background: linear-gradient(135deg, #ff9800, #f57c00);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1rem;
+  opacity: 0.95;
+}
+
+/* --------------------
+   Navigation
+-------------------- */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: var(--light);
+  padding: 14px 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: var(--primary);
+  color: white;
+}
+
+/* --------------------
+   Hero Section
+-------------------- */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: radial-gradient(circle at top, #fff8e1, #ffe0b2);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #bf360c;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+/* --------------------
+   Sections
+-------------------- */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #bf360c;
+}
+
+section p, section li {
+  font-size: 1rem;
+}
+
+/* --------------------
+   Event List
+-------------------- */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: var(--light);
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  border-left: 6px solid var(--primary);
+  border-radius: 8px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
+/* --------------------
+   Gallery Placeholder
+-------------------- */
+.gallery-note {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* --------------------
+   Footer
+-------------------- */
+footer {
+  background: #1f1f1f;
+  color: #ddd;
+  text-align: center;
+  padding: 20px 15px;
+  margin-top: 60px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* --------------------
+   Buttons (future use)
+-------------------- */
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: var(--primary);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* --------------------
+   Responsive
+-------------------- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero h2 {
+    font-size: 1.6rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
