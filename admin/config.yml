@@ -1,7 +1,13 @@
+
 backend:
   name: github
   repo: sudoshekhu/arghya-v1.0
   branch: main
+  auth_scope: repo
+  client_id: Ov23lizHpF1omXODfrkB
+  client_secret: 6c67ac49adf5d0e1ad6d4845830026e8916d69fb
+  base_url: https://decap-cms-oauth.netlify.app
+
 
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
@@ -19,3 +25,4 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
+
