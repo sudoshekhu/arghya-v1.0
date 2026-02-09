@@ -1,3 +1,4 @@
+
 /* =====================================================
    GOOGLE FONTS
 ===================================================== */
@@ -53,40 +54,6 @@ body {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
-
-/* Navbar Layout */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-/* Logo Image */
-.logo img {
-  height: 55px;   /* adjust based on your logo */
-  width: auto;
-  display: block;
-}
-
-/* Navigation */
-.nav-links a {
-  margin-left: 25px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #7a3e00;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #d97b00;
-}
-
 
 /* =====================================================
    HEADER & NAVBAR
