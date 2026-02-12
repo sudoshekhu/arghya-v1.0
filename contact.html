@@ -68,16 +68,47 @@
     
   </div>
 </section>
-<form action="https://formsubmit.co/seg.arghya@gmail.com" method="POST">
-  <input type="text" name="Name" placeholder="Your Name" required>
-  <input type="email" name="Email" placeholder="Your Email" required>
-  <textarea name="Message" placeholder="Your Message" required></textarea>
+<section class="contact-wrapper">
+  <div class="contact-box">
 
-  <input type="hidden" name="_subject" value="New message from ARGHYA website">
-  <input type="hidden" name="_captcha" value="false">
+    <h2>🙏 Contact ARGHYA Team</h2>
+    <p class="contact-subtext">
+      For volunteering, sponsorship, or event queries, please reach out to us.
+    </p>
 
-  <button type="submit">Send Message</button>
-</form>
+    <form action="https://formsubmit.co/arghya.team@gmail.com" method="POST">
+
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" name="Name" required>
+      </div>
+
+      <div class="input-group">
+        <label>Email Address</label>
+        <input type="email" name="Email" required>
+      </div>
+
+      <div class="input-group">
+        <label>Phone Number</label>
+        <input type="tel" name="Phone">
+      </div>
+
+      <div class="input-group">
+        <label>Your Message</label>
+        <textarea name="Message" rows="5" required></textarea>
+      </div>
+
+      <!-- Hidden settings -->
+      <input type="hidden" name="_subject" value="New message from ARGHYA Website">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit" class="contact-btn">Send Message</button>
+
+    </form>
+
+  </div>
+</section>
+
 
 
 <!-- Footer -->
