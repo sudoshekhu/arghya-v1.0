@@ -494,55 +494,97 @@ footer {
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
-.contact-section {
-  padding: 60px 20px;
-  background: #fff7e6;
-  text-align: center;
+/* Contact Section Background */
+.contact-wrapper {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #fff3e0, #ffe0b2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-section h2 {
-  font-size: 32px;
-  color: #8B0000;
-  margin-bottom: 30px;
-}
-
-form {
-  max-width: 600px;
-  margin: auto;
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-input, textarea {
+/* Contact Box */
+.contact-box {
   width: 100%;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+  max-width: 650px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  border-top: 6px solid #ff6f00;
+  position: relative;
 }
 
-button {
-  background: #8B0000;
-  color: white;
-  padding: 12px 30px;
+/* Subtle festive glow */
+.contact-box::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 22px;
+  background: linear-gradient(45deg, #ff9800, #ffcc80, #ff9800);
+  z-index: -1;
+  opacity: 0.4;
+}
+
+/* Heading */
+.contact-box h2 {
+  text-align: center;
+  color: #8B0000;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.contact-subtext {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+/* Focus effect */
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #ff6f00;
+  outline: none;
+  box-shadow: 0 0 6px rgba(255,111,0,0.3);
+}
+
+/* Button */
+.contact-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(45deg, #ff6f00, #ff9800);
   border: none;
-  border-radius: 25px;
-  font-size: 16px;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
   cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
 }
 
-button:hover {
-  background: #b30000;
+.contact-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
