@@ -475,3 +475,22 @@ footer {
     border: none;
 }
 
+.map-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff7e6;
+}
+
+.map-section h2 {
+  font-size: 32px;
+  color: #8B0000;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
