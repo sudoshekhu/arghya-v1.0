@@ -494,3 +494,55 @@ footer {
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
+.contact-section {
+  padding: 60px 20px;
+  background: #fff7e6;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  color: #8B0000;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #8B0000;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b30000;
+}
