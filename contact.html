@@ -1,115 +1,95 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Chhath Puja</title>
+  <title>Contact Us | ARGHYA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-<!-- Floating Diyas -->
-<div class="diya-container">
-  <span class="diya"></span>
-  <span class="diya"></span>
-  <span class="diya"></span>
-  <span class="diya"></span>
-  <span class="diya"></span>
-</div>
+<!-- ===== CONTACT HEADER ===== -->
+<section class="contact-hero">
+  <h1>🙏 Contact ARGHYA</h1>
+  <p>We are here to serve Chhathi Maiya with devotion and togetherness</p>
+</section>
 
-<!-- Ticker -->
-<div class="ticker">
-  <span>॥ Jai Chhathi Maiya ॥ Chhath Puja Mahaparv | Cultural Programs | Mahabhog for All Devotees ॥</span>
-</div>
+<!-- ===== INFO GRID ===== -->
+<section class="contact-info-grid">
 
-<!-- Header -->
-<header>
-  <div class="navbar">
-    <div class="logo">ARGHYA</div>
-    <div class="nav-links">
-      <a href="https://arghya.co.in">Home</a>
-      <a href="https://arghya.co.in/about.html">About Chhath</a>
-      <a href="https://arghya.co.in/gallery">Gallery</a>
-      <a href="https://arghya.co.in/contact">Contact</a>
-    </div>
+  <div class="info-card">
+    <i class="fas fa-location-dot"></i>
+    <h3>Address</h3>
+    <p>SEG, Bangalore<br>Chhath Puja Ghat</p>
   </div>
-</header>
-<section class="contact-wrapper">
-  <div class="contact-box">
 
-    <h2>🙏 Contact ARGHYA Team</h2>
-    <p class="contact-subtext">
-      For volunteering, sponsorship, or event queries, please reach out to us.
-    </p>
+  <div class="info-card">
+    <i class="fas fa-envelope"></i>
+    <h3>Email</h3>
+    <p>arghya.team@gmail.com</p>
+  </div>
+
+  <div class="info-card">
+    <i class="fas fa-phone"></i>
+    <h3>Contact</h3>
+    <p>+91 XXXXX XXXXX</p>
+  </div>
+
+</section>
+
+<!-- ===== MAP + FORM ROW ===== -->
+<section class="contact-main-row">
+
+  <!-- MAP -->
+  <div class="map-box">
+    <h2>📍 Event Location</h2>
+    <iframe 
+      src="https://maps.google.com/maps?q=SEG+Bangalore&z=15&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <!-- CONTACT FORM -->
+  <div class="form-box">
+    <h2>📩 Send Us a Message</h2>
 
     <form action="https://formsubmit.co/arghya.team@gmail.com" method="POST">
 
-      <div class="input-group">
-        <label>Full Name</label>
-        <input type="text" name="Name" required>
-      </div>
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Email" placeholder="Your Email" required>
+      <textarea name="Message" placeholder="Your Message" required></textarea>
 
-      <div class="input-group">
-        <label>Email Address</label>
-        <input type="email" name="Email" required>
-      </div>
-
-      <div class="input-group">
-        <label>Phone Number</label>
-        <input type="tel" name="Phone">
-      </div>
-
-      <div class="input-group">
-        <label>Your Message</label>
-        <textarea name="Message" rows="5" required></textarea>
-      </div>
-
-      <!-- Hidden settings -->
-      <input type="hidden" name="_subject" value="New message from ARGHYA Website">
+      <input type="hidden" name="_subject" value="New message from ARGHYA website">
       <input type="hidden" name="_captcha" value="false">
 
-      <button type="submit" class="contact-btn">Send Message</button>
-
+      <button type="submit">Send Message</button>
     </form>
+  </div>
+
+</section>
+
+<!-- ===== SOCIAL MEDIA ROW ===== -->
+<section class="social-section">
+  <h2>🌸 Connect With ARGHYA</h2>
+
+  <div class="social-icons">
+
+    <a href="#" class="social facebook">
+      <i class="fab fa-facebook-f"></i>
+      <span>Facebook</span>
+    </a>
+
+    <a href="#" class="social instagram">
+      <i class="fab fa-instagram"></i>
+      <span>Instagram</span>
+    </a>
 
   </div>
 </section>
-<!-- Section -->
-<section class="section">
-  <div class="section-title">
-    <h2>Contact Us</h2>
-    <p>Our presence on the internet</p>
-  </div>
-
-  <div class="card-grid">
-    <div class="card">
-      <h3>Location</h3>
-      <p>Sumadhura Eden Garden<br>Doddabanahalli, Bengaluru </br><br>Karnataka 560067</br></p>
-    </div>
-    <div class="card">
-      <h3>Mail ID</h3>
-      <p>seg.arghya@gmail.com</p>
-    </div>
-    </div></section>
-   <section class="map-section">
-   <h2>Event Location</h2>
-
-  <div class="map-container">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124387.93836805578!2d77.67191669159422!3d13.027833673786244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f0073e00f45%3A0x56e622a1653e4661!2sTeam%20Arghya%20Chhath%20Puja!5e0!3m2!1sen!2sin!4v1770871922729!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    </div>
-    
-  </div>
-</section>
-
-<!-- Footer -->
-<footer>
-  <p><strong>ARGHYA</strong> – A Non-Profit Chhath Puja Committee<br>
-     Jai Chhathi Maiya 🙏</p>
-</footer>
 
 </body>
 </html>
