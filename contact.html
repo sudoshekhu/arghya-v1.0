@@ -1,128 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <title>ARGHYA – Chhath Puja Committee</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" type="image/png" href="/favicon.png">
-    <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | ARGHYA</title>
+<link rel="stylesheet" href="style.css">
 
-
+<!-- Font Awesome Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<!-- Floating Diyas -->
-<div class="diya-container">
-  <span class="diya"></span>
-  <span class="diya"></span>
-  <span class="diya"></span>
-  <span class="diya"></span>
-  <span class="diya"></span>
-</div>
-
-<!-- Ticker -->
-<div class="ticker">
-  <span>॥ Jai Chhathi Maiya ॥ Chhath Puja Mahaparv | Cultural Programs | Mahabhog for All Devotees ॥</span>
-</div>
-
-<!-- Header -->
+<!-- Header (same as home) -->
 <header>
   <div class="navbar">
     <div class="logo">
-  <img src="assets/images/logo.png" alt="ARGHYA Logo">
-</div>
+      <img src="assets/logo.png" alt="ARGHYA">
+    </div>
     <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="https://arghya.co.in/about.html">About Chhath</a>
-      <a href="#">Events</a>
-      <a href="https://arghya.co.in/gallery">Gallery</a>
-      <a href="https://arghya.co.in/contact">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Chhath</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
     </div>
   </div>
 </header>
 
-<body>
-
-<!-- ===== CONTACT HEADER ===== -->
-<section class="contact-hero">
-  <h1>🙏 Contact ARGHYA</h1>
-  <p>We are here to serve Chhathi Maiya with devotion and togetherness</p>
+<!-- Page Title -->
+<section class="page-banner">
+  <h1>Contact ARGHYA Team</h1>
 </section>
 
-<!-- ===== INFO GRID ===== -->
-<section class="contact-info-grid">
+<!-- Contact Info Grid -->
+<section class="contact-info-section">
+  <div class="contact-grid">
 
-  <div class="info-card">
-    <i class="fas fa-location-dot"></i>
-    <h3>Address</h3>
-    <p>SEG, Bangalore<br>Chhath Puja Ghat</p>
+    <div class="info-card">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Location</h3>
+      <p>SEG Community, Bangalore</p>
+    </div>
+
+    <div class="info-card">
+      <i class="fas fa-envelope"></i>
+      <h3>Email</h3>
+      <p>arghya.team@gmail.com</p>
+    </div>
+
+    <div class="info-card">
+      <i class="fas fa-phone"></i>
+      <h3>Phone</h3>
+      <p>+91 XXXXX XXXXX</p>
+    </div>
+
   </div>
+</section>
 
-  <div class="info-card">
-    <i class="fas fa-envelope"></i>
-    <h3>Email</h3>
-    <p>arghya.team@gmail.com</p>
-  </div>
+<!-- Map + Form Row -->
+<section class="contact-main-section">
 
-  <div class="info-card">
-    <i class="fas fa-phone"></i>
-    <h3>Contact</h3>
-    <p>+91 XXXXX XXXXX</p>
+  <div class="contact-row">
+
+    <!-- Google Map -->
+    <div class="map-box">
+      <iframe
+        src="https://www.google.com/maps?q=bangalore&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="form-box">
+      <h2>Send a Message</h2>
+
+      <form action="https://formsubmit.co/arghya.team@gmail.com" method="POST">
+
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="Email" placeholder="Email Address" required>
+        <input type="tel" name="Phone" placeholder="Phone Number">
+        <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+
+        <input type="hidden" name="_subject" value="New message from ARGHYA website">
+        <input type="hidden" name="_captcha" value="false">
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
   </div>
 
 </section>
 
-<!-- ===== MAP + FORM ROW ===== -->
-<section class="contact-main-row">
-
-  <!-- MAP -->
-  <div class="map-box">
-    <h2>📍 Event Location</h2>
-    <iframe 
-      src="https://maps.google.com/maps?q=SEG+Bangalore&z=15&output=embed"
-      loading="lazy">
-    </iframe>
-  </div>
-
-  <!-- CONTACT FORM -->
-  <div class="form-box">
-    <h2>📩 Send Us a Message</h2>
-
-    <form action="https://formsubmit.co/arghya.team@gmail.com" method="POST">
-
-      <input type="text" name="Name" placeholder="Your Name" required>
-      <input type="email" name="Email" placeholder="Your Email" required>
-      <textarea name="Message" placeholder="Your Message" required></textarea>
-
-      <input type="hidden" name="_subject" value="New message from ARGHYA website">
-      <input type="hidden" name="_captcha" value="false">
-
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-
-</section>
-
-<!-- ===== SOCIAL MEDIA ROW ===== -->
+<!-- Social Media Row -->
 <section class="social-section">
-  <h2>🌸 Connect With ARGHYA</h2>
+  <h2>Connect With Us</h2>
 
   <div class="social-icons">
 
-    <a href="#" class="social facebook">
-      <i class="fab fa-facebook-f"></i>
-      <span>Facebook</span>
+    <a href="#" class="social-btn facebook">
+      <i class="fab fa-facebook-f"></i> Facebook
     </a>
 
-    <a href="#" class="social instagram">
-      <i class="fab fa-instagram"></i>
-      <span>Instagram</span>
+    <a href="#" class="social-btn instagram">
+      <i class="fab fa-instagram"></i> Instagram
     </a>
 
   </div>
 </section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 ARGHYA | Chhath Puja Committee</p>
+</footer>
 
 </body>
 </html>
